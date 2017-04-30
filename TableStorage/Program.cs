@@ -61,7 +61,7 @@ namespace TableStorage
         // 
         // *************************************************************************************************************************
 
-
+            
         public static void Main(string[] args)
         {
             Console.WriteLine("Azure Table Storage - Getting Started Samples\n");
@@ -70,8 +70,8 @@ namespace TableStorage
             BasicSamples basicSamples = new BasicSamples();
             basicSamples.RunSamples().Wait();
 
-            AdvancedSamples advancedSamples = new AdvancedSamples();
-            advancedSamples.RunSamples().Wait();
+//            AdvancedSamples advancedSamples = new AdvancedSamples();
+            //advancedSamples.RunSamples().Wait();
 
             Console.WriteLine();
             Console.WriteLine("Press any key to exit");
